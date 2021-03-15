@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Nova;
+  src: url(../fonts/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero .header {
+  width: 981px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Nova;
+  font-size: 25px;
+  color: #fff;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.promo-tours {
+  max-width: 1280px;
+  min-height: 304px;
+  margin: 57px auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.promo-tours .promo {
+  height: 304px;
+  width: 236px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo-tours .promo .header {
+  font-family: Nova;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.promo-tours .promo .price {
+  font-family: Nova;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.promo-tours .promo .more {
+  font-family: Gill;
+  background-color: #5d9bce;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.promo-tours .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+}
+.promo-tours .usa {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
+.promo-tours .austrailia {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
+.promo-tours .newzealand {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+.promo-tours .france {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+.promo-tours .egypt {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+.promo-tours .japan {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+.promo-tours .canada {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+.promo-tours .uae {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+}
+
+@media only screen and (max-width: 1060px) {
+  .promo-tours {
+    width: 236px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.footer {
+  width: 1280px;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #5d9bce;
+}
+.footer .logo {
+  width: 92px;
+  height: 42px;
+  margin: 20px;
+  background-image: url(../images/logo/logo-white.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.footer .copyright {
+  font-family: Gill;
+  font-size: 20px;
+  color: #fff;
+  margin: auto 0;
+}
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  margin: 20px;
+  background-image: url(../images/logo/logo-black.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+nav .links {
+  width: 524px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #5d9bce;
+}
+nav .links div a {
+  font-family: Gill;
+  font-size: 15px;
+  margin: auto;
+  text-decoration: none;
+}
