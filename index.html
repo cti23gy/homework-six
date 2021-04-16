@@ -8,82 +8,94 @@
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <div class="hero">
-        <nav>
-            <div class="logo"></div>
-            <div class="links">
-                <div><a href="#">home</a></div>
-                <div class="pipe"></div>
-                <div><a href="#">about</a></div>
-                <div class="pipe"></div>
-                <div><a href="#">tours</a></div>
-                <div class="pipe"></div>
-                <div><a href="#">special offers</a></div>
-                <div class="pipe"></div>
-                <div><a href="#">blog</a></div>
-                <div class="pipe"></div>
-                <div><a href="#">contact</a></div> 
+    <div id="app">
+        <div class="hero">
+            <nav>
+                <div class="logo"></div>
+                <div class="links">
+                    <div><a href="#">home</a></div>
+                    <div class="pipe"></div>
+                    <div><a href="#">about</a></div>
+                    <div class="pipe"></div>
+                    <div><a href="#">tours</a></div>
+                    <div class="pipe"></div>
+                    <div><a href="#">special offers</a></div>
+                    <div class="pipe"></div>
+                    <div><a href="#">blog</a></div>
+                    <div class="pipe"></div>
+                    <div><a href="#">contact</a></div> 
+                </div>
+            </nav>
+            <div class="header">
+                <h1>TOURS:</h1>
+            </div>   
+        </div>
+    
+    <div class="tours">
+    <section class="promo-tours">
+            <div class="promo israel">
+                <div class="header">ISRAEL</div>
+                <div class="price">FROM $1000</div>
+                <div class="more"><a id="moreisrael" href="#">LEARN MORE</a></div>
             </div>
-        </nav>
-        <div class="header">
-            <h1>TOURS:</h1>
-        </div>   
+            <div class="promo usa">
+                <div class="header">U.S.A</div>
+                <div class="price">FROM $1500</div>
+                <div class="more"><a id="moreusa" href="#">LEARN MORE</a></div>
+            </div>
+            <div class="promo austrailia">
+                <div class="header">AUSTRAILIA</div>
+                <div class="price">FROM $1800</div>
+                <div class="more"><a id="moreaustrailia" href="#">LEARN MORE</a></div>
+            </div>
+        </section>
+        <section class="promo-tours">
+            <div class="promo newzealand">
+                <div class="header">NEWZEALAND</div>
+                <div class="price">FROM $1200</div>
+                <div class="more"><a id="morenewzealand" href="#">LEARN MORE</a></div>
+            </div>
+            <div class="promo france">
+                <div class="header">FRANCE</div>
+                <div class="price">FROM $2500</div>
+                <div class="more"><a id="morefrance" href="#">LEARN MORE</a></div>
+            </div>
+            <div class="promo egypt">
+                <div class="header">EGYPT</div>
+                <div class="price">FROM $900</div>
+                <div class="more"><a id="moreegypt" href="#">LEARN MORE</a></div>
+            </div>
+        </section>
+        <section class="promo-tours">
+            <div class="promo japan">
+                <div class="header">JAPAN</div>
+                <div class="price">FROM $1300</div>
+                <div class="more"><a id="morejapan" href="#">LEARN MORE</a></div>
+            </div>
+            <div class="promo canada">
+                <div class="header">CANADA</div>
+                <div class="price">FROM $2000</div>
+                <div class="more"><a id="morecanada" href="#">LEARN MORE</a></div>
+            </div>
+            <div class="promo uae">
+                <div class="header">U.A.E</div>
+                <div class="price">FROM $3000</div>
+                <div class="more"><a id="moreuae" href="#">LEARN MORE</a></div>
+            </div>
+        </section>
+        </div>
     </div>
-    <section class="promo-tours">
-        <div class="promo israel">
-            <div class="header">ISRAEL</div>
-            <div class="price">FROM $1000</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-        <div class="promo usa">
-            <div class="header">U.S.A</div>
-            <div class="price">FROM $1500</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-        <div class="promo austrailia">
-            <div class="header">AUSTRAILIA</div>
-            <div class="price">FROM $1800</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-    </section>
-    <section class="promo-tours">
-        <div class="promo newzealand">
-            <div class="header">NEWZEALAND</div>
-            <div class="price">FROM $1200</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-        <div class="promo france">
-            <div class="header">FRANCE</div>
-            <div class="price">FROM $2500</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-        <div class="promo egypt">
-            <div class="header">EGYPT</div>
-            <div class="price">FROM $900</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-    </section>
-    <section class="promo-tours">
-        <div class="promo japan">
-            <div class="header">JAPAN</div>
-            <div class="price">FROM $1300</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-        <div class="promo canada">
-            <div class="header">CANADA</div>
-            <div class="price">FROM $2000</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-        <div class="promo uae">
-            <div class="header">U.A.E</div>
-            <div class="price">FROM $3000</div>
-            <div class="more">LEARN MORE</div>
-        </div>
-    </section>
+
+
     <footer class="footer">
         <div class="logo"></div>
         <div class="copyright">Copyright 2019 travel-fly.  All rights reserved</div>
         <div class="media"></div>
     </footer>
+
+
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script type="module" src="model/model.js"></script>
+    <script type="module" src="app/app.js"></script>
 </body>
 </html>
